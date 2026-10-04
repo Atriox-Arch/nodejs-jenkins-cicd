@@ -21,7 +21,7 @@ test("Node.js application responds successfully", async () => {
                         assert.strictEqual(res.statusCode, 200);
 
                         assert.ok(
-                            data.includes("Hello from Jenkins CI/CD!")
+                            data.includes("Hello from Jenkins CI/CD - Version 2!")
                         );
 
                         resolve();
