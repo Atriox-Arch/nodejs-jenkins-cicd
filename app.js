@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
     });
 
     res.end(`
-        <h1>Hello from Jenkins CI/CD!</h1>
+        <h1>Hello from Jenkins CI/CD - Version 2!</h1>
         <p>Application deployed successfully.</p>
     `);
 });
